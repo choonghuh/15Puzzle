@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BoardView.h
 //  15puzzle
 //
 //  Created by Choong Choong Huh Huh on 2/13/15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
--(IBAction)tileSelected:(UIButton*)sender;
--(IBAction)shuffleTiles:(id)sender;
+@interface BoardView : UIView
 
 @end
-

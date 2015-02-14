@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.board = [[FifteenBoard alloc] init];
+    [self.board scramble:150];
+    
     return YES;
 }
 

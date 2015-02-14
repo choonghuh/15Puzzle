@@ -14,6 +14,8 @@
 		2F90C5AE1A8EAF90007C9B50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F90C5AD1A8EAF90007C9B50 /* Images.xcassets */; };
 		2F90C5B11A8EAF90007C9B50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F90C5AF1A8EAF90007C9B50 /* LaunchScreen.xib */; };
 		2F90C5BD1A8EAF90007C9B50 /* _5puzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90C5BC1A8EAF90007C9B50 /* _5puzzleTests.m */; };
+		2F90C5C81A8EB48F007C9B50 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90C5C71A8EB48F007C9B50 /* BoardView.m */; };
+		2F90C5CB1A8EBABE007C9B50 /* FifteenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90C5CA1A8EBABE007C9B50 /* FifteenBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2F90C5B61A8EAF90007C9B50 /* 15puzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 15puzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F90C5BB1A8EAF90007C9B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F90C5BC1A8EAF90007C9B50 /* _5puzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5puzzleTests.m; sourceTree = "<group>"; };
+		2F90C5C61A8EB48F007C9B50 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		2F90C5C71A8EB48F007C9B50 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		2F90C5C91A8EBABE007C9B50 /* FifteenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifteenBoard.h; sourceTree = "<group>"; };
+		2F90C5CA1A8EBABE007C9B50 /* FifteenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifteenBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +92,13 @@
 				2F90C5A71A8EAF90007C9B50 /* ViewController.h */,
 				2F90C5A81A8EAF90007C9B50 /* ViewController.m */,
 				2F90C5AA1A8EAF90007C9B50 /* Main.storyboard */,
+				2F90C5C61A8EB48F007C9B50 /* BoardView.h */,
+				2F90C5C71A8EB48F007C9B50 /* BoardView.m */,
 				2F90C5AD1A8EAF90007C9B50 /* Images.xcassets */,
 				2F90C5AF1A8EAF90007C9B50 /* LaunchScreen.xib */,
 				2F90C5A01A8EAF90007C9B50 /* Supporting Files */,
+				2F90C5C91A8EBABE007C9B50 /* FifteenBoard.h */,
+				2F90C5CA1A8EBABE007C9B50 /* FifteenBoard.m */,
 			);
 			path = 15puzzle;
 			sourceTree = "<group>";
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F90C5CB1A8EBABE007C9B50 /* FifteenBoard.m in Sources */,
 				2F90C5A91A8EAF90007C9B50 /* ViewController.m in Sources */,
+				2F90C5C81A8EB48F007C9B50 /* BoardView.m in Sources */,
 				2F90C5A61A8EAF90007C9B50 /* AppDelegate.m in Sources */,
 				2F90C5A31A8EAF90007C9B50 /* main.m in Sources */,
 			);
