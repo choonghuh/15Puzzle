@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
     
     self.board = [[FifteenBoard alloc] init];
-    [self.board scramble:150];
+    [self.board scramble:5000];
     
     return YES;
 }

@@ -79,7 +79,7 @@
     NSLog(@"shuffleTiles");
     AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
     FifteenBoard *board = appDelegate.board;
-    [board scramble:150];
+    [board scramble:5000];
     [self.boardView setNeedsLayout];
 }
 

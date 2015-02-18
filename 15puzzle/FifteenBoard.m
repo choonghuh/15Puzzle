@@ -28,9 +28,8 @@
 -(void)scramble:(int)n
 {
     for (int i=0; i<n; i++) {
-        <#statements#>
+        [self slideTileAtRow:arc4random()%4 Column:arc4random()%4];
     }
-    
 }
 
 -(int)getTileAtRow:(int)row Column:(int)col
@@ -98,27 +97,28 @@
     {
         [self.numbers replaceObjectAtIndex:col+(row-1)*4 withObject:[self.numbers objectAtIndex: col+row*4]];
         [self.numbers replaceObjectAtIndex:col+row*4 withObject:[NSNumber numberWithInt:0]];
-        NSLog(@"Okay tile went up");
+        //NSLog(@"Okay tile went up");
     }
     if ([self canSlideTileDownAtRow:row Column:col])
     {
         [self.numbers replaceObjectAtIndex:col+(row+1)*4 withObject:[self.numbers objectAtIndex: col+row*4]];
         [self.numbers replaceObjectAtIndex:col+row*4 withObject:[NSNumber numberWithInt:0]];
-        NSLog(@"Okay tile went down");
+        //NSLog(@"Okay tile went down");
     }
     if ([self canSlideTileLeftAtRow:row Column:col])
     {
         [self.numbers replaceObjectAtIndex:col-1+row*4 withObject:[self.numbers objectAtIndex: col+row*4]];
         [self.numbers replaceObjectAtIndex:col+row*4 withObject:[NSNumber numberWithInt:0]];
-        NSLog(@"Okay tile went left");
+        //NSLog(@"Okay tile went left");
     }
     if ([self canSlideTileRightAtRow:row Column:col])
     {
         [self.numbers replaceObjectAtIndex:col+1+row*4 withObject:[self.numbers objectAtIndex: col+row*4]];
         [self.numbers replaceObjectAtIndex:col+row*4 withObject:[NSNumber numberWithInt:0]];
-        NSLog(@"Okay tile went right");
+        //NSLog(@"Okay tile went right");
     }
-    
+    if([self isSolved])
+        NSLog(@"YOU WIN!!");
 }
 
 @end
