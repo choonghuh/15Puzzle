@@ -27,7 +27,10 @@
 
 -(void)scramble:(int)n
 {
-
+    for (int i=0; i<n; i++) {
+        <#statements#>
+    }
+    
 }
 
 -(int)getTileAtRow:(int)row Column:(int)col
