@@ -16,6 +16,7 @@
 		2F90C5BD1A8EAF90007C9B50 /* _5puzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90C5BC1A8EAF90007C9B50 /* _5puzzleTests.m */; };
 		2F90C5C81A8EB48F007C9B50 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90C5C71A8EB48F007C9B50 /* BoardView.m */; };
 		2F90C5CB1A8EBABE007C9B50 /* FifteenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90C5CA1A8EBABE007C9B50 /* FifteenBoard.m */; };
+		2FE025801A956EE4002D5A98 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0257F1A956EE4002D5A98 /* readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2F90C5C71A8EB48F007C9B50 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
 		2F90C5C91A8EBABE007C9B50 /* FifteenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifteenBoard.h; sourceTree = "<group>"; };
 		2F90C5CA1A8EBABE007C9B50 /* FifteenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifteenBoard.m; sourceTree = "<group>"; };
+		2FE0257F1A956EE4002D5A98 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				2F90C5A01A8EAF90007C9B50 /* Supporting Files */,
 				2F90C5C91A8EBABE007C9B50 /* FifteenBoard.h */,
 				2F90C5CA1A8EBABE007C9B50 /* FifteenBoard.m */,
+				2FE0257F1A956EE4002D5A98 /* readme */,
 			);
 			path = 15puzzle;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE025801A956EE4002D5A98 /* readme in Resources */,
 				2F90C5AC1A8EAF90007C9B50 /* Main.storyboard in Resources */,
 				2F90C5B11A8EAF90007C9B50 /* LaunchScreen.xib in Resources */,
 				2F90C5AE1A8EAF90007C9B50 /* Images.xcassets in Resources */,
@@ -426,6 +430,7 @@
 				2F90C5C21A8EAF90007C9B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F90C5C31A8EAF90007C9B50 /* Build configuration list for PBXNativeTarget "15puzzleTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +439,7 @@
 				2F90C5C51A8EAF90007C9B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
