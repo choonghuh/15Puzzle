@@ -117,8 +117,6 @@
         [self.numbers replaceObjectAtIndex:col+row*4 withObject:[NSNumber numberWithInt:0]];
         //NSLog(@"Okay tile went right");
     }
-    if([self isSolved])
-        NSLog(@"YOU WIN!!");
 }
 
 @end

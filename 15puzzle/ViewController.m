@@ -72,6 +72,8 @@
         [UIView animateWithDuration:0.5 animations:^{sender.center=buttonCenter;}];
         
     }
+    if([board isSolved])
+        NSLog(@"WIN!");
 }
 
 -(IBAction)shuffleTiles:(id)sender
